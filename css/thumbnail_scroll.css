@@ -1,0 +1,10 @@
+
+#thumbnails_wrapper{z-index:2; position:fixed; bottom:0; width:100%; background:url(empty.gif);}
+#outer_container{position:relative; padding:0; width:100%; margin:40px auto;}
+#outer_container .thumbScroller{position:relative; overflow:hidden; background:url(fs_img_g_bg.png);}
+#outer_container .thumbScroller, #outer_container .thumbScroller .container, #outer_container .thumbScroller .content{height:170px;}
+#outer_container .thumbScroller .container{position:relative; left:0;}
+#outer_container .thumbScroller .content{float:left;}
+#outer_container .thumbScroller .content div{margin:5px; height:100%;}
+#outer_container .thumbScroller img{border:5px solid #fff;}
+#outer_container .thumbScroller .content div a{display:block; padding:5px;}
