@@ -141,6 +141,15 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:Georgia,serif;
 	color:#C52D08;
 }
+#box h2 span{
+	margin-top:0;
+	font-size:15px;
+	text-align:center;
+	line-height:30px;
+	font-weight:normal;
+	font-family:Georgia,serif;
+	color:#555;
+}
 #box a, #boxwide a{
 	text-decoration:none;
 	outline:none;
