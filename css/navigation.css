@@ -76,13 +76,13 @@ h1,h2,h3,h4,h5,h6 {
 	filter:alpha(opacity=90);
 }
 #boxbackgroundreviews{
-	position:fixed;
+	position:relative;
 	left:0%;
-	bottom:1%;
+	top:250px;
 	z-index:50;
 	width:100%;
 	background:#fff;
-	opacity:0.95;
+	opacity:0.85;
 	filter:alpha(opacity=90);
 }
 #boxbackgroundfooter{
@@ -170,8 +170,8 @@ body{
 	font-weight: 400;
 	font-size: 15px;
 	color: #aa3e03;
-	overflow-y: hidden;
-	overflow-x: hidden;
+	overflow-y: auto;
+	overflow-x: auto;
 }
 .ie7 body{
 	overflow:hidden;
